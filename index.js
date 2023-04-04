@@ -106,7 +106,7 @@ client.on('messageCreate', (message) => {
 setInterval(async () => {
   const currentTime = Date.now();
   const timeSinceLastMessage = currentTime - lastMessageTimestamp;
-  const idleTimeLimit = 1 * 60 * 1000; // 2 hours in milliseconds
+  const idleTimeLimit = 120 * 60 * 1000; // 2 hours in milliseconds (MINS * SECONDS * MS)
 
   if (timeSinceLastMessage >= idleTimeLimit) {
     const channel = client.channels.cache.get(process.env.CHANNEL_ID);
