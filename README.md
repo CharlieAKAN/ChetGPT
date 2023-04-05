@@ -36,6 +36,7 @@ _______________________________________________________________________
     - Once down your bot will now be added to your Discord
 
 2) Setting up ChetGPT
+  - DO NOT SHARE YOUR API KEY OR DISCORD TOKEN WITH ANYONE!
   - Turn on Developer Mode on Discord (https://www.thewindowsclub.com/how-to-enable-the-developer-mode-on-discord-for-pc-and-web)
   - Download and unzip the code from this GitHub
   - Open Visual Studio Code and click "Open Folder" 
@@ -81,8 +82,11 @@ _______________________________________________________________________
   - Follow the video by Sparked Host (https://youtu.be/qVc12Wu-4ic)
   - You only need to copy over .env, index.js, package-lock, package.json - Everything else will be created by Sparked Host.
   
-   
-      
+
+Future Features
+  - Assigning certain to use your bot. Currently anyone could use it.
+  - Connecting ChatGPT to the internet for the latest infomation
+  - "time out" users who are being rude to only users.
     
   
 
